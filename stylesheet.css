@@ -5,14 +5,15 @@ body {
 .link{
     margin-right: -90%;
 }
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 h1 {
     color: black;
     margin-bottom: 30px;
     background-color: white;
+    text-align: center;
 }
 .container {
     padding: 40px;
@@ -32,43 +33,76 @@ h1 {
     list-style-type: none;
     background-color:white;
     border-radius: 3px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
+        'stars'
         'thumbnail'
         'title'
         'description'
-        'price';
+        'price'
+        'btn';
     text-align: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.stars{
+    grid-area: stars;
+    margin-left: -60%;
+    
+}
+.btn{
+    grid-area: btn;
+    margin-left: 3%;
+    
+}
+.btn:hover{
+   background-color: rgb(63, 117, 242);
 }
 
 .character > h2 {
     grid-area: title;
     margin-bottom: 20px;
-    margin-left: 25%;
+    margin-left: 0%;
 }
 
 .character > p {
     grid-area: description;
     margin: 0;
-    margin-top: -18px;
-    margin-left: 25%;
+    text-decoration-color: rgb(133, 129, 129);
+     margin-top: -18px;
+    margin-left: 2%;
 }
 .character > h3{
     grid-area: price;
-    margin-left: 25%;
+    margin-left: 0%;
 }
 
 .character > img {
-    margin-left: 18%;
+    margin-left: 3%;
     max-height: 300px;
     max-width: 300px;
     grid-area: thumbnail;
+    
+}
+.imge{
+    transition:0.25s;
+}
+.imge:hover{
+    transform: scale(1.2);
+}
+.character:hover{
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+.character > img :hover{
+    transform: scale(1.2);
 }
 
 #searchBar {
-    width: 100%;
+    width: 95%;
     height: 32px;
     border-radius: 3px;
     border: 1px solid #eaeaea;
@@ -84,5 +118,5 @@ h1 {
     content: '🔍';
     position: absolute;
     top: 7px;
-    right: 15px;
+    right: 25px;
 }
