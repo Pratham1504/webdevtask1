@@ -1,0 +1,58 @@
+.heading{
+    background-color: rgb(133, 133, 255);
+   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin: 0;
+   
+}
+.col{
+    font-size: 40px;
+    text-align: center;
+}
+.ylo
+{
+background-color:rgb(233, 233, 76) ;
+}
+.wht{
+    background-color: aliceblue;
+}
+.bottom{
+    background-color: lightcyan;
+    
+    text-align: center;
+    padding:0px;
+    position: relative;
+    margin-top: 150px;
+}
+.contact{
+    position: relative;
+    margin-bottom: 25px;
+}
+.instagram{
+    color: rgb(255, 31, 255);
+    padding: 40px;
+}
+.facebook{
+    
+    padding: 40px;
+}
+.whatsapp{
+    color: green;
+    padding: 40px;
+
+}
+.twitter{
+    color: rgb(0, 191, 255);
+    padding: 40px;
+}
+.gemail{
+    color: red;
+    padding: 40px;
+}
+.snapchat{
+    padding: 40px;
+    color: rgb(234, 234, 25);
+}
