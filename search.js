@@ -26,6 +26,7 @@ const loadCharacters = async () => {
     }
 };
 
+
 const displayCharacters = (characters) => {
     
     const htmlString = characters
@@ -96,3 +97,6 @@ const displayCharacters = (characters) => {
 };
 
 loadCharacters();
+
+
+

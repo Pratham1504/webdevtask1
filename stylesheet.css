@@ -1,13 +1,27 @@
 body {
     font-family: sans-serif;
-    background-color: rgb(179, 164, 164);
+    background-color: #ae00ff;
+   background-image: url(bg2.jpg);
+    
+    
 }
 .link{
     margin-right: -90%;
 }
+.imageanime{
+padding-left: 0%;
+padding-left: 0%;
+padding-top: 20%;
+padding-bottom: 20%;
+margin: 20PX;
+background-image: url(catalogimg.jpg);
+justify-content: center;
+animation: change 30s infinite;
+}
 /* * {
     box-sizing: border-box;
 } */
+
 
 h1 {
     color: black;
@@ -46,19 +60,26 @@ h1 {
     text-align: center;
     justify-content: center;
     transition: 0.5s;
+    position: relative;
 }
 .stars{
     grid-area: stars;
     margin-left: -60%;
     
 }
+
 .btn{
+    position: absolute;
     grid-area: btn;
-    margin-left: 3%;
+    left:37%;
+    bottom: 5%;
+    max-width: 200px;
+    max-height: 20px;
     
 }
 .btn:hover{
    background-color: rgb(63, 117, 242);
+  
 }
 
 .character > h2 {
@@ -77,6 +98,7 @@ h1 {
 .character > h3{
     grid-area: price;
     margin-left: 0%;
+    bottom:20%;
 }
 
 .character > img {
@@ -120,3 +142,47 @@ h1 {
     top: 7px;
     right: 25px;
 }
+ @keyframes change
+ {
+     0%
+     {
+         background-image: url(1.jpg);
+     }
+     20%
+     {
+        background-image: url(2.jpg);
+     }
+     20%
+     {
+         background-image: url(3.jpg);
+     }
+     30%{
+        background-image: url(4.jpg);
+     }
+     40%
+     {
+         background-image: url(5.jpg);
+     }
+     50%{
+        background-image: url(6.jpg);
+     }
+     60%
+     {
+         background-image: url(7.jpg);
+     }
+     70%{
+        background-image: url(8.jpg);
+     }
+     80%
+     {
+         background-image: url(9.jpg);
+     }
+     90%{
+        background-image: url(10.png);
+     }
+     
+     100%{
+        background-image: url(11.png);
+     }
+
+ }

@@ -1,16 +1,24 @@
 .heading{
     background-color: rgb(133, 133, 255);
    text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
+  padding: 25px;
    margin: 0;
+   /* position: fixed; */
+   width: 100%;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
+
+.other{
+    top: 100px;
+}
 .col{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+   margin-top: -330px;
 }
 .ylo
 {
@@ -27,6 +35,14 @@ background-color:rgb(233, 233, 76) ;
     position: relative;
     margin-top: 150px;
 }
+.dp{
+    margin-top: -350px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 700px ;
+    background-image: url(dp.jpeg);
+    transform: scale(0.5);
+}
 .contact{
     position: relative;
     margin-bottom: 25px;
@@ -42,6 +58,8 @@ background-color:rgb(233, 233, 76) ;
 .whatsapp{
     color: green;
     padding: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 
 }
 .twitter{
@@ -55,4 +73,114 @@ background-color:rgb(233, 233, 76) ;
 .snapchat{
     padding: 40px;
     color: rgb(234, 234, 25);
+}
+span{
+    padding: 40px;
+    font-size: 35px;
+}
+.personalinfo{
+    text-decoration: wavy;
+    display: block;
+    background-color: blueviolet;
+    padding: 20px 20px;
+    margin-bottom: 0;
+}
+.col2{
+   font-size :30px;
+    text-align: center;
+    
+}
+.col2 p{
+    text-shadow: beige;
+    font-size: 25px;
+    text-align: center;
+    margin: 300px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    font-style: italic;
+    font: bold;
+    font-family: cursive;
+}
+.col2 p:first-letter{
+ font-family: cursive;
+ font-size: 80px;
+ color: blueviolet;
+}
+.education{
+    text-decoration: wavy;
+    display: block;
+    background-color: blueviolet;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.navigation{
+    left: 0;
+    margin-top: 1px;
+    font-size: 40px;
+    background-color: blueviolet;
+    text-align:center;
+    padding: 20px;
+    
+}
+.navigation a{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+    -ms-text-size-adjust: auto;
+    color: white;
+    border: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.col3{
+    font-size :30px;
+     text-align: center;
+ }
+.col3 p{
+    text-shadow: beige;
+    font-size: 25px;
+    text-align: center;
+    text-align: justify;
+    margin: 300px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: blue;
+
+}
+.col3 p:first-letter{
+    font-family: cursive;
+    font-size: 80px;
+    position: relative;
+    top: 50px;
+    color: blueviolet;
+   }
+.aboutme{
+    text-decoration: wavy;
+    display: block;
+    background-color: blueviolet;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.navigationdown{
+    opacity: 0.5;
+    position: fixed;
+    
+    margin-top: 95%;
+    margin-left: 95%;
+}
+.dropdown
+{
+    position: relative;
+    top:610px;
+    left: 1470px;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.5;
+    
+ 
 }
