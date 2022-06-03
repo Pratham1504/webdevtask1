@@ -5,7 +5,7 @@ body {
     
     
 }
-.link{
+.link1{
     margin-right: -90%;
 }
 .imageanime{
@@ -24,10 +24,37 @@ animation: change 30s infinite;
 
 
 h1 {
-    color: black;
+    color: white;
     margin-bottom: 30px;
     background-color: white;
     text-align: center;
+    position: relative;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 44%;
+    width: 0;
+    height: 100%;
+    color: black;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: animate 4s linear infinite;
+}
+.heading svg{
+    color: black;
+}
+@keyframes animate{
+    0%{
+width: 0;
+    }
+    50%{
+        width: 16%;
+    }
 }
 .container {
     padding: 40px;
@@ -186,3 +213,65 @@ h1 {
      }
 
  }
+ .innerfooter{
+     margin: 0;
+     padding: 0;
+     background-color: #d53030;
+     text-align: center;
+     
+
+ }
+ .social{
+     display: flex;
+ }
+ .social div{
+     display: flex;
+    width: 180px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+ }
+ 
+.social a{
+    padding:10px 20px;
+    font-size: 0px;
+    color: aqua;
+    transition: all 0.25s;
+    
+
+}
+.social a:hover{
+   color: #eaeaea;
+}
+.link{
+   display: flex;
+    width: 560px;
+    height: 70px;
+    margin:auto;
+}
+.links div{
+    padding: 10px;
+    
+    
+}
+.lnk{
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: beige;
+}
+.lnk:hover{
+    color: chartreuse;
+}
+.outerfooter{
+    padding:15px;
+    text-align: center;
+    color: #eaeaea;
+    font-size: 18px;
+    background-color: #ec0f0f;
+}
+footer{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
