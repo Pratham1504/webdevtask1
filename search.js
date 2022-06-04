@@ -1,11 +1,11 @@
 const charactersList = document.getElementById('charactersList');
 const searchBar = document.getElementById('searchBar');
-let hpCharacters = [];
+let Characters = [];
 
 searchBar.addEventListener('keyup', (e) => {
     const searchString = e.target.value.toLowerCase();
 
-    const filteredCharacters = hpCharacters.filter((character) => {
+    const filteredCharacters = productCharacters.filter((character) => {
         return (
             character.title.toLowerCase().includes(searchString) ||
             character.category.toLowerCase().includes(searchString) ||
@@ -19,8 +19,8 @@ searchBar.addEventListener('keyup', (e) => {
 const loadCharacters = async () => {
     try {
         const res = await fetch('products.txt');
-        hpCharacters = await res.json();
-        displayCharacters(hpCharacters);
+        productCharacters = await res.json();
+        displayCharacters(productCharacters);
     } catch (err) {
         console.error(err);
     }
