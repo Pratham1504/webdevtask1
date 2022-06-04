@@ -13,6 +13,7 @@ body{
  padding-right: 0%;
  font-size: small;
  margin-top: 3%;
+ margin-bottom: 3%;
     
     
 
@@ -42,11 +43,8 @@ body{
     margin-left: 50%;
 }
 .image{
-    padding: 700px;
-    transform: scale(0.7);
-    left: 10%;
-    margin-top: -10%;
-    background-image: url(dp.jpeg);
+    text-align: center;
+border-bottom: 15%;
 }
 .footer{
     position: fixed;
