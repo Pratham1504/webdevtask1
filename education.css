@@ -1,0 +1,81 @@
+.icon{
+    background: transparent;
+    margin-right: 52%;
+}
+body{
+    background-color: white;
+}
+.links{
+    text-underline-offset: none;
+    text-align: center;
+    margin-left: 0;
+ padding-left: 2%;
+ padding-right: 0%;
+ font-size: small;
+ margin-top: 3%;
+    margin-bottom: 3%;
+    
+
+}
+.name{
+    text-align: center;
+}
+.link{
+    margin-right: 8px;
+    margin-left:8px ;
+    text-decoration: none;
+    color: rgb(94, 93, 93);
+}
+.link1{
+    margin-right: 8px;
+    margin-left:8px ;
+    text-decoration: none;
+    color: red;
+}
+.link:hover{
+    color: black;
+}
+.link1:hover{
+    color: black;
+}
+.link a{
+    margin-left: 50%;
+}
+.body{
+    text-align: center;
+    background-color: rgb(233, 232, 232);
+padding-bottom: 1%;
+    
+}
+.aboutpara{
+    font-size: medium;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    color: rgb(62, 61, 61);
+}
+.img{
+    margin-top: 3%;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 0;
+    font-size: small;
+    color: rgb(237, 226, 226);
+    background-color: rgb(38, 32, 32);
+}
+.rights{
+    padding-left: 15%;
+    padding-right: 50%;
+}
+.socials{
+    margin-left: 10px;
+    color: white;
+}
