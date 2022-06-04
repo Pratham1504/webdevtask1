@@ -177,8 +177,8 @@ span{
 .dropdown
 {
     position: relative;
-    top:610px;
-    left: 1470px;
+    top:90%;
+    left: 90%;
     position: fixed;
     z-index: 1;
     opacity: 0.5;
